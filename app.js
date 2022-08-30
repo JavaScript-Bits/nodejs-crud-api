@@ -27,7 +27,6 @@ app.patch('/elections/:electionId', updateElection)
 app.delete('/elections/:electionId', deleteElection)
 
 app.use((err, req, res, next) => {
-  console.log(err)
   return res.status(httpStatus.BAD_REQUEST).send(err)
 })
 
