@@ -1,0 +1,17 @@
+{
+  "name": "elections",
+  "version": "1.0.0",
+  "description": "Opaque nature of elections",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Mugweru <brianmugweru@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.20.0",
+    "express": "4.18.1",
+    "http-status": "1.5.2",
+    "mongoose": "6.5.3"
+  }
+}
