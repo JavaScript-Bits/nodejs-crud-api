@@ -3,6 +3,7 @@ const mongoose = require('mongoose')
 const schema = mongoose.Schema({
   candidate: {
     type: String,
+    unique: true,
     required: true
   },
   votes: {

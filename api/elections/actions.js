@@ -1,4 +1,4 @@
-const { create, get, fetch, update, remove } = require('./models/elections')
+const { create, get, fetch, update, remove } = require('../../models/elections')
 
 const createElection = async (req, res, next) => {
   try {
