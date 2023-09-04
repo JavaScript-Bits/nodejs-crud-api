@@ -3,12 +3,13 @@ const mongoose = require('mongoose')
 const schema = mongoose.Schema({
   candidate: {
     type: String,
-    unique: true,
-    required: true
+    required: true,
+    unique: true
   },
   votes: {
     type: String,
-    required: true
+    required: true,
+    unique: true
   },
   party: {
     type: String,

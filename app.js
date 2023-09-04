@@ -13,6 +13,8 @@ app.get('/', (req, res, next) => {
 
 app.use('/elections', electionsRouter)
 
+// app.use(errorTransformer) - TO BE ADDED EVENTUALLY
+
 app.use((err, req, res, next) => {
   res.status(400).send(err)
 })
